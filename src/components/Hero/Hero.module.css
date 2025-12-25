@@ -1,0 +1,9 @@
+.hero {
+  background-image: url("/bg/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px;
+  margin: 8px 0 32px 0;
+  padding: 155px 56px 56px;
+}

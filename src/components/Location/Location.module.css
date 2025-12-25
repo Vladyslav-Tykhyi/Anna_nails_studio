@@ -1,0 +1,40 @@
+.location_container {
+  padding: 64px 0;
+}
+
+.location_text {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  text-transform: capitalize;
+  color: #eadfcc;
+  margin: 0 0 16px 0;
+}
+
+.location_wrapper {
+  margin: 0 0 32px 0;
+}
+
+.location_box {
+  max-width: 343px;
+  margin: 0 0 32px 0;
+}
+
+@media screen and (min-width: 768px) {
+  .location_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .location_wrapper {
+    margin: 0 0 80px 0;
+  }
+
+  .location_box {
+    margin: 0;
+    max-width: 732px;
+  }
+}

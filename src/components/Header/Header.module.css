@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 0;
+}
+
+@media screen and (min-width: 1440px) {
+  .burgerMenu {
+    display: none;
+  }
+}
